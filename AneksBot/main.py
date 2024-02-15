@@ -3,7 +3,6 @@ import requests
 import json
 import random
 
-bot = telebot.TeleBot('6452738178:AAGWNoBZZpUi1BebQ--N0NGez5GoNd3fV9Q')
 isRunning = True
 
 @bot.message_handler(commands = ['start'])
